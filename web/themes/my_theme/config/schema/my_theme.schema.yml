@@ -1,0 +1,5 @@
+# Schema for the theme setting configuration file of the my_theme theme.
+
+my_theme.settings:
+  type: theme_settings
+  label: 'my_theme settings'

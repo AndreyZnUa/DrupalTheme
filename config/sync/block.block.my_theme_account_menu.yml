@@ -1,0 +1,26 @@
+uuid: 164c7a32-47e8-4556-afa6-8b6869cc627c
+langcode: ru
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - my_theme
+_core:
+  default_config_hash: DweBpscQZdG0-fHkSpUzdYucrNH45G_KF7Z82V-oyQM
+id: my_theme_account_menu
+theme: my_theme
+region: navigation
+weight: 0
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'Меню учётной записи пользователя'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility: {  }

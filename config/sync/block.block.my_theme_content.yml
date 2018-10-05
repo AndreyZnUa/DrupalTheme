@@ -1,0 +1,22 @@
+uuid: 6dec66f9-25ad-41cd-a367-76ee2e23f3b6
+langcode: ru
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - my_theme
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: my_theme_content
+theme: my_theme
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Содержимое страницы'
+  provider: system
+  label_display: '0'
+visibility: {  }

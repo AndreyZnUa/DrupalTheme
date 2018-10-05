@@ -1,0 +1,20 @@
+uuid: 78b5af44-6ad9-4daa-9dc0-e280d06e5402
+langcode: ru
+status: true
+dependencies:
+  theme:
+    - my_theme
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: my_theme_local_actions
+theme: my_theme
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Основные действия администратора'
+  provider: core
+  label_display: '0'
+visibility: {  }
